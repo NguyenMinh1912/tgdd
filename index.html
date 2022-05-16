@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thegioidiong.com</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body style="background: #f3f3f3;">
+<div class="top-ads-banner">
+    <div class="top-ads-banner__image main">
+        <img src="./vendor/images/1200-44-1200x44.png" alt="">
+    </div>
+</div>
+
+<nav class="main-navbar">
+    <div class="main-navbar__info main">
+        <a href="#" class="main-navbar__logo">
+            <img src="./vendor/images/logo.png" class="image-full-width" alt="">
+        </a>
+        <a class="header__address">
+            <p>Xem giá, tồn kho tại:</p>
+            <p>Hồ Chí Minh</p>
+        </a>
+        <form class="header__search">
+            <input
+                    id="skw" type="text" class="input-search" maxlength="100" placeholder="Bạn tìm gì...">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <a class="name-order">
+            Lịch sử đơn hàng
+        </a>
+
+        <a href="./page/cart.html" class="header__cart menu-info">
+            <div class="box-cart">
+                <img src="./vendor/images/cart.png" class="image-full-width">
+                <span class="cart-number"></span>
+            </div>
+            <span>Giỏ hàng</span>
+        </a>
+    </div>
+    <div class="header__main main">
+        <div>
+            <ul class="main-menu">
+                <li class="">
+                    <a href="/dtdd">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png">
+                        </i>
+                        <span class="">Điện thoại</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/laptop-ldp">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png">
+                        </i>
+                        <span class="">Laptop</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/may-tinh-bang">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png">
+                        </i>
+                        <span class="">Tablet</span>
+                    </a>
+                </li>
+                <li class="has-list">
+                    <a href="/phu-kien">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png">
+                        </i>
+                        <span class="has-child">Phụ kiện</span>
+                    </a>
+                    <div class="navmwg ">
+                        <div class="item-child "></div>
+                    </div>
+                </li>
+                <li class="">
+                    <a href="/dong-ho-thong-minh-ldp">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png">
+                        </i>
+                        <span class="">Smartwatch</span>
+                    </a>
+                </li>
+                <li class="has-list">
+                    <a href="/avaji">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-avaji-96x96-1.png">
+                        </i>
+                        <span class="has-child">AVAJi</span>
+                    </a>
+                    <div class="navmwg limit-width">
+                        <div class="item-child no-child-final">
+                            <a href="/dong-ho"><h3>Đồng hồ thời trang</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/mat-kinh"><h3>Mắt kính</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/trang-suc"><h3>Trang sức</h3></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="has-list">
+                    <a href="/pc-may-in">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-pc-96x96.png">
+                        </i>
+                        <span class="has-child">PC, Máy in</span>
+                    </a>
+                    <div class="navmwg limit-width">
+                        <div class="item-child no-child-final">
+                            <a href="/may-in"><h3>Máy in</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/muc-in"><h3>Mực in</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/man-hinh-may-tinh"><h3>Màn hình máy tính</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/may-tinh-de-ban"><h3>Máy tính để bàn</h3></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <a href="/may-doi-tra">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Máy cũ giá rẻ</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/sim-so-dep">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Sim, Thẻ cào</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/tien-ich">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Trả góp, Điện nước</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="main">
+    <div class=" bsc-block">
+        <section>
+            <ul class="breadcrumb">
+                <li><a href="/phu-kien">Phụ kiện</a></li>
+                <li><a>Phụ kiện chính hãng Belkin</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<div class="ads-banners main">
+    <div class="ads-banners__main-image">
+        <img src="https://cdn.tgdd.vn/2022/05/banner/buds-800-200-800x200.png" class="image-full-width" alt="">
+    </div>
+    <div class="ads-banners__childs-image promote-banner">
+        <div class="promote-item">
+            <img src="https://cdn.tgdd.vn/2022/05/banner/sticky-airpod-390-97-390x97.png"
+                 class="image-full-width promote-item-image" alt="">
+        </div>
+        <div class="promote-item">
+            <img src="https://cdn.tgdd.vn/2022/05/banner/stickyJBL-390x97-1.jpg"
+                 class="image-full-width promote-item-image" alt="">
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="group-manu">
+        <a data-href="apple" data-name="Apple" data-checkurl="Apple" data-index="1">
+            <img src="//cdn.tgdd.vn/Brand/1/Apple482-b_37.jpg" alt="Apple" height="25">
+        </a>
+        <a data-href="beats" data-name="Beats" data-checkurl="Beats" data-index="2">
+            <img src="//cdn.tgdd.vn/Brand/1/Beats482-b_28.jpg" alt="Beats" height="25">
+        </a>
+        <a data-href="harman-kardon" data-name="Harman Kardon" data-checkurl="Harman-Kardon"
+           data-index="3">
+            <img src="//cdn.tgdd.vn/Brand/1/Harman-Kardon482-b_23.jpg" alt="Harman Kardon" height="25">
+        </a>
+        <a data-href="samsung" data-name="Samsung" data-checkurl="Samsung" data-index="4">
+            <img src="//cdn.tgdd.vn/Brand/1/samsungnew-220x48-220x48-1.png" alt="Samsung" height="25">
+        </a>
+        <a data-href="sony" data-name="Sony" data-checkurl="Sony" data-index="5">
+            <img src="//cdn.tgdd.vn/Brand/1/Sony482-b_41.jpg" alt="Sony" height="25">
+        </a>
+        <a data-href="belkin" data-name="Belkin" data-checkurl="Belkin" data-index="6">
+            <img src="//cdn.tgdd.vn/Brand/1/Belkin9499-s39-160x40.jpg" alt="Belkin" height="25">
+        </a>
+        <a data-href="anker" data-name="Anker" data-checkurl="Anker" data-index="7">
+            <img src="//cdn.tgdd.vn/Brand/1/Anker482-b_18.png" alt="Anker" height="25">
+        </a>
+        <a data-href="logitech" data-name="Logitech" data-checkurl="Logitech" data-index="8">
+            <img src="//cdn.tgdd.vn/Brand/1/Logitech482-b_47.jpg" alt="Logitech" height="25">
+        </a>
+        <!--        <a  data-href="jbl" data-name="JBL" data-checkurl="JBL" data-index="8" class="active">-->
+        <!--            <img src="//cdn.tgdd.vn/Brand/1/JBL482-b_46.jpg" alt="JBL" height="25">-->
+        <!--        </a>-->
+        <a class="viewmore-manupk">Xem thêm</a>
+    </div>
+
+
+    <div class="box-quicklink normal-cate block-scroll-main scrolling accessories">
+        <a
+                class="box-quicklink__item bd-radius check isAll">
+            Tất cả
+        </a>
+        <a class="box-quicklink__item bd-radius">
+            Tai nghe
+        </a>
+        <a class="box-quicklink__item bd-radius">
+            Loa
+        </a>
+    </div>
+    <div>
+        <div class="box-sort genuine">
+            <p class="sort-total">21 Phụ kiện JBL</p>
+            <div class="box-checkbox extend  ">
+                <a data-href="" data-type="sp2020" class="c-checkitem accessories">
+                    <span class="tick-checkbox"></span>
+                    <p>Giảm giá</p>
+                </a>
+                <a data-href="" data-type="installment0" class="c-checkitem accessories ">
+                    <span class="tick-checkbox"></span>
+                    <p>Góp 0%</p>
+                </a>
+
+            </div>
+            <!--            <div class="sort-select ">-->
+            <!--                <p class="click-sort">Xếp theo: <span class="sort-show">Mới nhất</span></p>-->
+            <!--                <div class="sort-select-main sort accessories">-->
+            <!--                    <p><a  class="check" data-id="8"><i></i>Mới nhất</a></p>-->
+            <!--                    <p><a  class="" data-id="5"><i></i>% Giảm</a></p>-->
+            <!--                    <p><a  class="" data-id="3"><i></i>Giá cao đến thấp</a></p>-->
+            <!--                    <p><a  class="" data-id="2"><i></i>Giá thấp đến cao</a></p>-->
+
+            <!--                </div>-->
+            <!--            </div>-->
+            <!--        </div>-->
+        </div>
+
+
+    </div>
+
+    <div class="main" style="margin-top: 50px">
+        <ul class="listproduct" data-total="40">
+            <li data-id="250261" data-pos="1" class="item ">
+                <a href="page/iphone-13.html" class=" main-contain" data-s="OnlineSaving" data-site="1"
+                   data-pro="3" data-cache="False" data-name="Điện thoại iPhone 13 Pro Max 256GB" data-id="250261"
+                   data-price="32490000.0" data-brand="iPhone (Apple)" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-gold-1-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="iPhone 13 Pro Max 256GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/250261/iphone-13-pro-max-gold-1-600x600.jpg"
+                             width="207" height="207">
+                    </div>
+                    <p class="result-label temp5"><img class=" ls-is-cached lazyloaded" alt="GIẢM KỊCH SÀN"
+                                                       data-src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       width="20" height="20"><span>GIẢM KỊCH SÀN</span></p>
+                    <h3>iPhone 13 Pro Max 256GB</h3>
+                    <p class="item-txt-online">Online giá rẻ</p>
+                    <strong class="price">
+                        32.490.000₫
+
+                        <small>-12%</small>
+                    </strong>
+                    <p class="vote-txt">
+                        <b>4.6</b><i class="iconnewglobal-vote"></i>(180)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="274360" data-pos="2" class="item ">
+                <a  class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại Samsung Galaxy A13 6GB" data-id="274360"
+                   data-price="5090000.0" data-brand="Samsung" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/274360/samsung-galaxy-a13-xanh-thumb-1-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="Samsung Galaxy A13 6GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/274360/samsung-galaxy-a13-xanh-thumb-1-600x600.jpg"
+                             width="207" height="207">
+                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png"
+                             class="lbliconimg lbliconimg_42 tgdd ls-is-cached lazyloaded" width="40" height="40">
+                    </div>
+                    <p class="result-label temp5"><img class=" ls-is-cached lazyloaded" alt="GIẢM KỊCH SÀN"
+                                                       data-src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       width="20" height="20"><span>GIẢM KỊCH SÀN</span></p>
+                    <h3>Samsung Galaxy A13 6GB</h3>
+                    <p class="item-txt-online">Online giá rẻ</p>
+                    <strong class="price">
+                        5.090.000₫
+
+                    </strong>
+                    <p class="item-gift">Quà <b>600.000₫</b></p>
+                    <p class="vote-txt">
+                        <b>2.7</b><i class="iconnewglobal-vote"></i>(42)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="271717" data-pos="3" class="item ">
+                <a  class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại OPPO Reno7 Z 5G" data-id="271717" data-price="10490000.0"
+                   data-brand="OPPO" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/271717/oppo-reno7-z-5g-thumb-1-1-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="OPPO Reno7 Z 5G"
+                             src="https://cdn.tgdd.vn/Products/Images/42/271717/oppo-reno7-z-5g-thumb-1-1-600x600.jpg"
+                             width="207" height="207">
+                    </div>
+                    <h3>OPPO Reno7 Z 5G</h3>
+                    <strong class="price">10.490.000₫</strong>
+                    <p class="vote-txt">
+                        <b>3.5</b><i class="iconnewglobal-vote"></i>(144)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="249429" data-pos="4" class="item ">
+                <a href="/dtdd/vivo-y21s" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại Vivo Y21s 4GB" data-id="249429" data-price="4990000.0"
+                   data-brand="Vivo" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/249429/vivo-y21s-blue-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="Vivo Y21s 4GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/249429/vivo-y21s-blue-600x600.jpg" width="207"
+                             height="207">
+                    </div>
+                    <p class="result-label temp5"><img class=" ls-is-cached lazyloaded" alt="GIẢM KỊCH SÀN"
+                                                       data-src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       width="20" height="20"><span>GIẢM KỊCH SÀN</span></p>
+                    <h3>Vivo Y21s 4GB</h3>
+                    <strong class="price">4.990.000₫</strong>
+                    <p class="item-gift">Quà <b>450.000₫</b></p>
+                    <p class="vote-txt">
+                        <b>3.3</b><i class="iconnewglobal-vote"></i>(87)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="271843" data-pos="5" class="item ">
+                <a href="/dtdd/xiaomi-redmi-10c" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="True" data-name="Điện thoại Xiaomi Redmi 10C 64GB" data-id="271843"
+                   data-price="3490000.0" data-brand="Xiaomi" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/271843/xiaomi-redmi-10c-xanh-luc-thumb-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="Xiaomi Redmi 10C 64GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/271843/xiaomi-redmi-10c-xanh-luc-thumb-600x600.jpg"
+                             width="207" height="207">
+                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png"
+                             class="lbliconimg lbliconimg_42 tgdd ls-is-cached lazyloaded" width="40" height="40">
+                    </div>
+                    <h3>Xiaomi Redmi 10C 64GB</h3>
+                    <strong class="price">3.490.000₫</strong>
+                    <p class="item-gift">Quà <b>450.000₫</b></p>
+                    <p class="vote-txt">
+                        <b>3.8</b><i class="iconnewglobal-vote"></i>(59)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="153856" data-pos="6" class="item ">
+                <a href="/dtdd/iphone-11" class=" main-contain" data-s="OnlineSaving" data-site="1" data-pro="3"
+                   data-cache="True" data-name="Điện thoại iPhone 11 64GB" data-id="153856" data-price="12990000.0"
+                   data-brand="iPhone (Apple)" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-xi-do-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="iPhone 11 64GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/153856/iphone-xi-do-600x600.jpg" width="207"
+                             height="207">
+                    </div>
+                    <p class="result-label temp5"><img class=" ls-is-cached lazyloaded" alt="GIẢM KỊCH SÀN"
+                                                       data-src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       width="20" height="20"><span>GIẢM KỊCH SÀN</span></p>
+                    <h3>iPhone 11 64GB</h3>
+                    <p class="item-txt-online">Online giá rẻ</p>
+                    <strong class="price">
+                        12.990.000₫
+
+                        <small>-13%</small>
+                    </strong>
+                    <p class="vote-txt">
+                        <b>4.0</b><i class="iconnewglobal-vote"></i>(828)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="274359" data-pos="7" class="item ">
+                <a href="/dtdd/samsung-galaxy-a23-6gb" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại Samsung Galaxy A23 6GB" data-id="274359"
+                   data-price="6090000.0" data-brand="Samsung" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/274359/samsung-galaxy-a23-xanh-thumb-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="Samsung Galaxy A23 6GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/274359/samsung-galaxy-a23-xanh-thumb-600x600.jpg"
+                             width="207" height="207">
+                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png"
+                             class="lbliconimg lbliconimg_42 tgdd ls-is-cached lazyloaded" width="40" height="40">
+                    </div>
+                    <p class="result-label temp5"><img class=" ls-is-cached lazyloaded" alt="GIẢM KỊCH SÀN"
+                                                       data-src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       src="https://cdn.tgdd.vn/2022/05/content/labelseagames-50x50-6.png"
+                                                       width="20" height="20"><span>GIẢM KỊCH SÀN</span></p>
+                    <h3>Samsung Galaxy A23 6GB</h3>
+                    <p class="item-txt-online">Online giá rẻ</p>
+                    <strong class="price">
+                        6.090.000₫
+
+                    </strong>
+                    <p class="item-gift">Quà <b>600.000₫</b></p>
+                    <p class="vote-txt">
+                        <b>3.3</b><i class="iconnewglobal-vote"></i>(55)
+                    </p>
+
+
+                </a>
+
+            </li>
+
+            <li data-id="247364" data-pos="18" class="item ">
+                <a href="/dtdd/samsung-galaxy-m53" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại Samsung Galaxy M53" data-id="247364" data-price="12290000.0"
+                   data-brand="Samsung" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/247364/samsung-galaxy-m53-nau-thumb-600x600.jpg"
+                             class=" lazyloaded" alt="Samsung Galaxy M53"
+                             src="https://cdn.tgdd.vn/Products/Images/42/247364/samsung-galaxy-m53-nau-thumb-600x600.jpg"
+                             width="207" height="207">
+                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png"
+                             class="lbliconimg lbliconimg_42 tgdd ls-is-cached lazyloaded" width="40" height="40">
+                    </div>
+                    <h3>Samsung Galaxy M53</h3>
+                    <p class="item-txt-online">Online giá rẻ</p>
+                    <strong class="price">
+                        12.290.000₫
+
+                    </strong>
+
+
+                </a>
+
+            </li>
+            <li data-id="251703" data-pos="19" class="item ">
+                <a href="/dtdd/oppo-a95-4g" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại OPPO A95" data-id="251703" data-price="6990000.0"
+                   data-brand="OPPO" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/251703/oppo-a95-4g-bac-2-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="OPPO A95"
+                             src="https://cdn.tgdd.vn/Products/Images/42/251703/oppo-a95-4g-bac-2-600x600.jpg"
+                             width="207" height="207">
+                    </div>
+                    <h3>OPPO A95</h3>
+                    <strong class="price">6.990.000₫</strong>
+                    <p class="item-gift">Quà <b>750.000₫</b></p>
+                    <p class="vote-txt">
+                        <b>4</b><i class="iconnewglobal-vote"></i>(266)
+                    </p>
+
+
+                </a>
+
+            </li>
+            <li data-id="261888" data-pos="20" class="item ">
+                <a href="/dtdd/realme-c35" class=" main-contain" data-s="Nomal" data-site="1" data-pro="3"
+                   data-cache="False" data-name="Điện thoại Realme C35 64GB" data-id="261888" data-price="3990000.0"
+                   data-brand="Realme" data-cate="Điện thoại" data-box="BoxHomeV2">
+                    <div class="item-label">
+                        <span class="lb-tragop">Trả góp 0%</span>
+                    </div>
+                    <div class="item-img">
+                        <img data-src="https://cdn.tgdd.vn/Products/Images/42/261888/realme-c35-thumb-new-600x600.jpg"
+                             class=" ls-is-cached lazyloaded" alt="Realme C35 64GB"
+                             src="https://cdn.tgdd.vn/Products/Images/42/261888/realme-c35-thumb-new-600x600.jpg"
+                             width="207" height="207">
+                        <img src="https://cdn.tgdd.vn/ValueIcons/Label_01-05.png"
+                             class="lbliconimg lbliconimg_42 tgdd ls-is-cached lazyloaded" width="40" height="40">
+                    </div>
+                    <h3>Realme C35 64GB</h3>
+                    <strong class="price">3.990.000₫</strong>
+                    <p class="vote-txt">
+                        <b>3.4</b><i class="iconnewglobal-vote"></i>(113)
+                    </p>
+
+
+                </a>
+
+            </li>
+
+
+        </ul>
+    </div>
+    <div class="main">
+        <a class="readmore-btn"><span>Xem thêm</span></a>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="main">
+        <section class="clearfix footer__top">
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>
+                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>
+                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>
+                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>
+                    <li><a href="javascript:void(0)" class="arrow showtaga">Xem thêm</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a>
+                    </li>
+                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="http://hddt.thegioididong.com">In hóa đơn điện tử</a>
+                    </li>
+                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>
+                    <li class="hidden"><a rel="nofollow"
+                                          href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu--683321">Cảnh
+                        báo giả mạo</a></li>
+                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm
+                        Apple</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <ul class="f-listmenu">
+                    <li><a rel="nofollow" href="http://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>
+                    <li><a rel="nofollow" href="http://vieclam.thegioididong.com">Tuyển dụng</a></li>
+                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>
+                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.133 shop)</a></li>
+                    <li><a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/?sclient=mobile">Xem
+                        bản mobile</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="f-listtel">
+                    <p class="f-listtel__title">
+                        <strong>Tổng đài hỗ trợ</strong>
+                        (Miễn phí gọi) </p>
+                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 -
+                        22:00)</p>
+                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 -
+                        22:00)</p>
+                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 -
+                        21:30)</p>
+                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 -
+                        21:00)</p>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="f-social">
+                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">
+                        <i class="icon-facebook"></i>
+                        3745.5k Fan
+                    </a>
+                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">
+                        <i class="icon-youtube"></i>
+                        843k Đăng ký
+                    </a>
+                </div>
+                <div class="f-certify">
+                    <a rel="nofollow" href="http://online.gov.vn/Home/WebDetails/20090" target="_blank">
+                        <i class="icon-congthuong"></i>
+                    </a>
+                    <a rel="nofollow" href="/tos#giai-quyet-khieu-nai" target="_blank">
+                        <i class="icon-khieunai"></i>
+                    </a>
+                    <a rel="nofollow" class="dmca-badge"
+                       href="https://www.dmca.com/Protection/Status.aspx?ID=5b62e759-2a0c-4d86-b972-af903bfbc89d&amp;refurl=https://www.thegioididong.com/"
+                       target="_blank">
+                        <i class="icon-protected"></i>
+                    </a>
+                    <a class="_ncsc" rel="nofollow"
+                       href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/thegioididongcom-1632835473"
+                       title="Chung nhan Tin Nhiem Mang" target="_blank">
+                        <img class="lazy lazyloaded"
+                             data-original="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"
+                             data-src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com" width="150"
+                             alt="Chung nhan Tin Nhiem Mang"
+                             src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com">
+                    </a>
+                </div>
+                <div class="f-website">
+                    <div class="footer__logo">
+                        <p class="footer__logo-hd">Website cùng tập đoàn</p>
+                        <ul class="footer__logo-list">
+                            <li>
+                                <a rel="nofollow" href="https://www.dienmayxanh.com/" target="_blank">
+                                    <i class="iconlogo-dienmayxanh"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.bachhoaxanh.com/" target="_blank">
+                                    <i class="iconlogo-bachhoaxanh"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.topzone.vn/" target="_blank"
+                                   title="Chuỗi cửa hàng cao cấp Apple">
+                                    <i class="iconlogo-topzone"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.dienmayxanh.com/xe-dap" target="_blank"
+                                   title="Chuỗi cửa hàng xe đạp">
+                                    <i class="iconlogo-cycle"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.avasport.com/" target="_blank"
+                                   title="Chuỗi cửa hàng thể thao">
+                                    <i class="iconlogo-sport"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.avakids.com/" target="_blank"
+                                   title="Chuỗi cửa hàng mẹ và bé">
+                                    <i class="iconlogo-kids"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.avafashion.com/" target="_blank"
+                                   title="Chuỗi cửa hàng thời trang">
+                                    <i class="iconlogo-fashion"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.thegioididong.com/avaji" target="_blank"
+                                   title="Chuỗi cửa hàng trang sức">
+                                    <i class="iconlogo-ji"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.dichvutantam.com/" target="_blank"
+                                   title="Dịch vụ vệ sinh máy lạnh, sửa chữa điện nước, lắp đặt máy lạnh, máy giặt, tivi">
+                                    <i class="iconlogo-tantam"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.nhathuocankhang.com/" target="_blank"
+                                   title="Chuỗi nhà thuốc chuẩn GPP">
+                                    <i class="iconlogo-ankhang"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://www.4kfarm.com/" target="_blank"
+                                   title="Nông trại rau sạch">
+                                    <i class="iconlogo-4kfarm"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="nofollow" href="https://vieclam.thegioididong.com/" target="_blank"
+                                   title="Trang tuyển dụng của tập đoàn Thế Giới Di Động">
+                                    <i class="iconlogo-vieclam"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</footer>
+
+
+</body>
+</html>

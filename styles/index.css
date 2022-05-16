@@ -1,0 +1,470 @@
+
+
+.top-ads-banner {
+    background-color: rgb(16, 64, 2);
+    height: 50px;
+    width: 100%;
+}
+
+.top-ads-banner__image{
+    height: 100%;
+}
+
+.top-ads-banner__image img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-navbar {
+    background-color: #ffd400;
+    padding: 10px 0;
+}
+
+.main-navbar__info {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.main-navbar__logo {
+    width: 227px;
+    height: 40px;
+}
+
+.header__address {
+    color: #333;
+    font-size: 11px;
+    line-height: 15px;
+    margin-right: 21px;
+    width: 15%;
+    padding-left: 15px;
+    background: rgba(255,172,10,.6);
+    padding: 4px 6px 4px 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.header__search {
+    position: relative;
+    width: 20%;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.header__search input {
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    color: #999;
+    font-size: 12px;
+    line-height: 14px;
+    height: 40px;
+    padding: 8px 8px 8px 13px;
+    width: calc(100% - 35px);
+}
+
+.header__search button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.name-order{
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 14px;
+    width: 10%;
+    border-radius: 4px;
+    text-align: center;
+    float: left;
+    margin: 0 21px;
+    background: rgba(255,172,10,.6);
+}
+
+.header__cart {
+    border-radius: 4px;
+    color: #333;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 10px;
+    width: 12%;
+    background: rgba(255,172,10,.6);
+}
+
+.header__cart .box-cart {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 34px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px 0;
+    padding-top: 10px;
+}
+
+.main-menu li {
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    height: 44px;
+
+}
+
+.main-menu a {
+    color: #000;
+    font-size: 0;
+    line-height: 16px;
+}
+
+.main-menu li i {
+    margin-right: 5px;
+}
+
+.main-menu li i, .main-menu li span {
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.main-menu li i img {
+    height: 20px;
+    width: auto;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.bsc-block {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.breadcrumb {
+    width: auto;
+    margin: 10px auto 0;
+}
+
+.breadcrumb li {
+    vertical-align: text-bottom;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 17px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.breadcrumb li::before {
+    border-top: 1px solid #666;
+    border-right: 1px solid #666;
+    content: '';
+    height: 4px;
+    position: absolute;
+    right: 1px;
+    transform: rotate(45deg);
+    top: 6px;
+    width: 4px;
+}
+
+.ads-banners {
+    display: flex;
+    height: 200px;
+    gap: 10px;
+}
+
+.ads-banners__main-image {
+    width: 70%;
+}
+
+.ads-banners__childs-image {
+    width: 30%;
+}
+
+.promote-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.promote-item-image {
+    /*height: 50%;*/
+}
+
+.group-manu {
+    justify-content: center;
+    padding: 15px 0 0 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.group-manu a {
+    align-items: center;
+    border-radius: 4px;
+    background-color: #fff;
+    justify-content: center;
+    display: inline-block;
+    height: 40px;
+    margin: 0 3px 10px 0;
+    width: 113px;
+    padding: 10px 14px;
+    border: 1px solid #e0e0e0;
+}
+.group-manu a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.viewmore-manupk {
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box-quicklink.accessories {
+    clear: both;
+    margin: 15px auto 0;
+}
+
+.box-quicklink__item.check {
+    border: 1px solid #288ad6;
+}
+.box-quicklink__item.bd-radius {
+    border-radius: 52px;
+}
+
+.box-quicklink__item {
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    color: #333;
+    display: flex;
+    font-size: 14px;
+    line-height: 13px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    min-height: 36px;
+    max-height: 36px;
+    padding: 6px 13px;
+    vertical-align: top;
+}
+
+.box-quicklink {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-sort {
+    margin: 10px 0;
+    display: block;
+    overflow: visible;
+}
+
+.box-sort.genuine .sort-total {
+    margin: 0 12px 15px 0;
+    padding-top: 2px;
+}
+.sort-total {
+    float: left;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding-top: 3px;
+}
+
+.genuine .box-checkbox {
+    margin-bottom: 10px;
+}
+.box-checkbox {
+    float: left;
+    margin: 0 0 15px;
+    margin-bottom: 15px;
+}
+
+.sort-select {
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.genuine .box-checkbox .c-checkitem:first-child {
+    margin-left: 0;
+}
+.box-checkbox .c-checkitem:first-child {
+    margin-left: 25px;
+}
+.genuine .box-checkbox .c-checkitem {
+    margin: 0 15px;
+    margin-left: 15px;
+}
+
+.box-checkbox a {
+    color: #000;
+}
+
+.c-checkitem .tick-checkbox, .c-checkitem p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-checkitem .tick-checkbox {
+    background: #fff;
+}
+.c-checkitem .tick-checkbox, .c-checkitem p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-checkitem .tick-checkbox {
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    margin-right: 2px;
+    height: 16px;
+    width: 16px;
+}
+
+.sort-select {
+    float: right;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sort-select .click-sort {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 6px 10px 6px 8px;
+}
+
+.sort-select .sort-show {
+    padding-right: 12px;
+    position: relative;
+}
+
+.sort-select .sort-show::before {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #333;
+    content: '';
+    height: 0;
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 0;
+}
+
+.sort-select-main {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,.2);
+    display: none;
+    position: absolute;
+    padding: 0 7px;
+    top: 30px;
+    right: 0;
+    width: 160px;
+    z-index: 2;
+}
+
+.listproduct {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    border-left: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+    grid-gap: 16px;
+}
+
+.daily-sg .listproduct li {
+    border-radius: 4px;
+    border: none;
+}
+.listproduct .item {
+    background-color: #fff;
+    padding: 10px 10px 20px;
+}
+
+.listproduct .item a {
+    display: block;
+    color: black;
+}
+
+.listproduct .item {
+    display: block;
+}
+
+.item-label {
+    font-size: 0;
+    height: 22px;
+}
+
+
+.listproduct .item-img {
+    margin-top: 10px;
+}
+.listproduct .item-img {
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+.listproduct .item-img {
+    height: 225px;
+    line-height: 225px;
+}
+
+.listproduct h3 {
+    margin-bottom: 8px;
+    line-height: 21px;
+}
+
+.listproduct h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+listproduct .price {
+    color: #d0021c;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.listproduct .price {
+    color: #d0021c;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+.daily-sg .readmore-btn {
+    border: none;
+    margin: 15px auto 0;
+}
+.readmore-btn {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    color: #333;
+    display: block;
+    line-height: 16px;
+    margin: 5px auto 15px;
+    padding: 15px 20px;
+    text-align: center;
+    width: 340px;
+}

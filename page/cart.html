@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../styles/cart.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thegioidiong.com</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/product-detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body style="background: #f3f3f3;">
+<div class="top-ads-banner">
+    <div class="top-ads-banner__image main">
+        <img src="../vendor/images/1200-44-1200x44.png" alt="">
+    </div>
+</div>
+
+<nav class="main-navbar">
+    <div class="main-navbar__info main">
+        <a href="../index.html" class="main-navbar__logo">
+            <img src="../vendor/images/logo.png" class="image-full-width" alt="">
+        </a>
+        <a class="header__address">
+            <p>Xem giá, tồn kho tại:</p>
+            <p>Hồ Chí Minh</p>
+        </a>
+        <form class="header__search">
+            <input
+                    id="skw" type="text" class="input-search" maxlength="100" placeholder="Bạn tìm gì...">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+
+        <a class="name-order">
+            Lịch sử đơn hàng
+        </a>
+
+        <a href="/cart" class="header__cart menu-info">
+            <div class="box-cart">
+                <img src="../vendor/images/cart.png" class="image-full-width">
+                <span class="cart-number"></span>
+            </div>
+            <span>Giỏ hàng</span>
+        </a>
+    </div>
+    <div class="header__main main">
+        <div>
+            <ul class="main-menu">
+                <li class="">
+                    <a href="/dtdd">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-phone-96x96-2.png">
+                        </i>
+                        <span class="">Điện thoại</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/laptop-ldp">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-laptop-96x96-1.png">
+                        </i>
+                        <span class="">Laptop</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/may-tinh-bang">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-tablet-96x96-1.png">
+                        </i>
+                        <span class="">Tablet</span>
+                    </a>
+                </li>
+                <li class="has-list">
+                    <a href="/phu-kien">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-phu-kien-96x96-1.png">
+                        </i>
+                        <span class="has-child">Phụ kiện</span>
+                    </a>
+                    <div class="navmwg ">
+                        <div class="item-child "></div>
+                    </div>
+                </li>
+                <li class="">
+                    <a href="/dong-ho-thong-minh-ldp">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-smartwatch-96x96-1.png">
+                        </i>
+                        <span class="">Smartwatch</span>
+                    </a>
+                </li>
+                <li class="has-list">
+                    <a href="/avaji">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-avaji-96x96-1.png">
+                        </i>
+                        <span class="has-child">AVAJi</span>
+                    </a>
+                    <div class="navmwg limit-width">
+                        <div class="item-child no-child-final">
+                            <a href="/dong-ho"><h3>Đồng hồ thời trang</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/mat-kinh"><h3>Mắt kính</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/trang-suc"><h3>Trang sức</h3></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="has-list">
+                    <a href="/pc-may-in">
+                        <i>
+                            <img src="https://cdn.tgdd.vn//content/icon-pc-96x96.png">
+                        </i>
+                        <span class="has-child">PC, Máy in</span>
+                    </a>
+                    <div class="navmwg limit-width">
+                        <div class="item-child no-child-final">
+                            <a href="/may-in"><h3>Máy in</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/muc-in"><h3>Mực in</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/man-hinh-may-tinh"><h3>Màn hình máy tính</h3></a>
+                        </div>
+                        <div class="item-child no-child-final">
+                            <a href="/may-tinh-de-ban"><h3>Máy tính để bàn</h3></a>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <a href="/may-doi-tra">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Máy cũ giá rẻ</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/sim-so-dep">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Sim, Thẻ cào</span>
+                    </a>
+                </li>
+                <li class="">
+                    <a href="/tien-ich">
+                        <i>
+                            <img>
+                        </i>
+                        <span class="">Trả góp, Điện nước</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="app">
+    <section class="card">
+        <div class="middleCart">
+            <ul class="listing-cart">
+                <li class="product-item">
+                    <div class="imgsp"><a href="/dtdd/samsung-galaxy-s22-ultra" target="_blank"><img
+                            src="https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-200x200.jpg"
+                            alt="Điện thoại Samsung Galaxy S22 Ultra 5G 128GB"
+                            class=" ls-is-cached lazyloaded"></a>
+                        <button><span></span> Xóa</button>
+                    </div>
+                    <div class="infosp">
+                        <div class="name-price">
+                            <div class="name-container"><a href="/dtdd/samsung-galaxy-s22-ultra"
+                                                           class="product-item__name">
+                                Điện thoại Samsung Galaxy S22 Ultra 5G 128GB </a></div>
+                            <span> 30.990.000₫ </span></div>
+                        <hr style="width: 65%; visibility: hidden;"><!----><!---->
+                        <div class="promo">
+                            <aside>
+                                <small class="promotionName">
+                                    Giảm giá 2,000,000đ (Không áp dụng kèm Thu cũ Đổi
+                                    mới)
+                                </small>
+                                <small class="promotionName">
+                                    Giảm ngay 3,000,000đ qua Quà tặng Galaxy (lấy
+                                    mã
+                                    trên máy mới)
+                                    <a href="http://www.thegioididong.com/tin-tuc/galaxy-s22-series-giam-gia-3-trieu-qua-qua-tang-galaxy-1425241">
+                                        Xem chi tiết
+                                    </a>
+                                </small>
+                                <small class="promotionName">Giảm đến 4,000,000đ khi Thu cũ
+                                    Đổi
+                                    mới (tùy model máy cũ)
+                                    <a href="http://www.thegioididong.com/thu-cu-doi-moi"> Xem
+                                        chi
+                                        tiết</a>
+                                </small>
+                                <small class="promotionName">Giảm ngay 3,000,000đ khi mua Galaxy Tab S8 kèm Galaxy S22
+                                </small><small class="promotionName">Ưu đãi phòng chờ hạng thương gia
+                                <a href="http://www.thegioididong.com/tin-tuc/s22-series-uu-dai-phong-cho-hang-thuong-gia-1417400">
+                                    Xem chi tiết
+                                </a>
+                            </small><small class="promotionName">Trả góp 0% thẻ tín dụng,
+                                chuyển đổi
+                                qua
+                                Quà tặng Galaxy <a
+                                        href="http://www.thegioididong.com/tin-tuc/mua-samsung-galaxy-tra-gop-0-qua-the-tin-dung-1386100">
+                                    Xem chi tiết</a></small><small class="promotionName">Giảm giá 30% gói bảo hiểm
+                                rơi
+                                vỡ,
+                                vào nước Samsung Care+ 12 tháng <a
+                                        href="https://www.thegioididong.com/tin-tuc/samsung-care-plus-bao-hanh-toan-dien-thiet-bi-cua-ban-1428947">
+                                    Xem chi tiết</a></small><small class="promotionName">Mua kèm Samsung Galaxy
+                                Watch 4
+                                giảm
+                                15% (Không áp dụng khuyến mãi khác của đồng hồ)</small><small class="promotionName">Nhập
+                                mã&nbsp;DMX100&nbsp;giảm
+                                3% tối đa 100.000đ khi thanh toán quét QRcode qua App của ngân hàng <a
+                                        href="http://www.thegioididong.com/tin-tuc/nhap-ma-giam-gia-vnpay-1377917">
+                                    Xem
+                                    chi
+                                    tiết</a></small><label class="">9 khuyến mãi</label></aside>
+                        </div><!----><!---->
+                        <div class="discountpromotion"><span class="promo-discount" data-tmp-promo-discount="2000000"
+                                                             data-tmp-price-after-discount="28990000">Giảm <strong
+                                class="discountpromotion__discountbox">2.000.000₫</strong> còn <strong
+                                class="discountpromotion__discountbox">28.990.000₫</strong></span></div>
+                        <!--fragment#1cb6d8132d#head-->
+                        <div fragment="1cb6d8132d" class="choose-color">
+                            <div class="product-size-and-color-selection">
+                                <aside><label class=""><span class="color-label">Màu: </span><span
+                                        class="color-text">Đỏ</span></label>
+                                    <div class="sg-color" style="display: none;">
+                                        <div class="select-color active"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-200x200.jpg"><small>Đỏ</small>
+                                        </div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-White-200x200.jpg"><small>Trắng</small>
+                                        </div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Black-200x200.jpg"><small>Đen</small>
+                                        </div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Green-200x200.jpg"><small>Xanh
+                                            lá</small></div>
+                                    </div>
+                                </aside><!----></div><!--fragment#868ac45c1f#head-->
+                            <div class="choosenumber" fragment="868ac45c1f">
+                                <div class="minus" style="pointer-events: none;">
+                                    <i style="background-color: rgb(204, 204, 204);"></i>
+                                </div>
+                                <input type="text" maxlength="3" class="number" style="border: none; pointer-events: all;" value="1">
+                                <div class="plus" style="pointer-events: all;">
+                                    <i style="background-color: rgb(40, 138, 214);"></i>
+                                    <i  style="background-color: rgb(40, 138, 214);"></i>
+                                </div>
+                                <input type="hidden"></div>
+                        </div>
+                        </div>
+                    <input fragment="c7bf1368dc" type="hidden" value="true">
+                </li>
+                <li class="product-item">
+                    <div class="imgsp"><a href="/dtdd/iphone-13-pro-max-1tb" target="_blank"><img
+                            src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-silver-200x200.jpg"
+                            alt="Điện thoại iPhone 13 Pro Max 1TB" class=" ls-is-cached lazyloaded"></a>
+                        <button><span></span> Xóa</button>
+                    </div>
+                    <div  class="infosp">
+                        <div class="name-price">
+                            <div class="name-container">
+                                <a  class="product-item__name">
+                                Điện thoại iPhone 13 Pro Max 1TB </a></div>
+                            <span> 44.990.000₫ <strike>49.990.000₫</strike></span></div>
+                        <hr style="width: 65%; visibility: hidden;"><!----><!---->
+                        <div class="promo">
+                            <aside><!----><small class="promotionName">Giảm giá 50% gói bảo hành mở rộng thêm 1 năm
+                                (chính
+                                hãng) <a
+                                        href="http://www.thegioididong.com/tin-tuc/goi-dich-vu-bao-hiem-bao-hanh-mo-rong-1407422">
+                                    Xem chi tiết</a></small><small class="promotionName">Giảm đến 1,500,000đ khi Thu cũ
+                                Đổi
+                                mới (tùy model máy cũ; không áp dụng kèm giảm giá qua VNPAY, Moca) <a
+                                        href="https://www.thegioididong.com/thu-cu-doi-moi"> Xem chi
+                                    tiết</a></small><small
+                                    class="promotionName">Giảm 50% giá gói cước 1 năm (Vina350/Vina500) cho Sim
+                                VinaPhone
+                                trả sau (Trị giá đến 3 triệu) <a
+                                        href="http://www.thegioididong.com/tin-tuc/chuong-trinh-uu-dai-goi-cuoc-vinaphone-khi-mua-iphone-1355678">
+                                    Xem chi tiết</a></small><label class="">3 khuyến mãi</label></aside>
+                        </div><!----><!----><!----><!--fragment#551d9a6e4b#head-->
+                        <div fragment="551d9a6e4b" class="choose-color">
+                            <div class="product-size-and-color-selection">
+                                <aside><label class=""><span class="color-label">Màu: </span><span
+                                        class="color-text">Bạc</span></label>
+                                    <div class="sg-color" style="display: none;">
+                                        <div class="select-color active"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-silver-200x200.jpg"><small>Bạc</small>
+                                        </div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-xanh-la-thumb-200x200.jpg"><small>Xanh
+                                            lá</small></div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-sierra-blue-200x200.jpg"><small>Xanh
+                                            Dương</small></div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-graphite-200x200.jpg"><small>Xám</small>
+                                        </div>
+                                        <div class="select-color"><img
+                                                src="https://cdn.tgdd.vn/Products/Images/42/250728/iphone-13-pro-max-gold-1-200x200.jpg"><small>Vàng
+                                            đồng</small></div>
+                                    </div>
+                                </aside><!----></div><!--fragment#134472ac8c#head-->
+                            <div class="choosenumber">
+                                <div class="minus" onclick="minusItem(2)">
+                                    <i style="background-color: rgb(204, 204, 204);"></i>
+                                </div>
+                                <input type="text" class="number"
+                                       id="totalProduct2"
+                                       style="border: none; pointer-events: all;" value="1">
+                                <div class="plus" style="pointer-events: all;" onclick="plusItem(2)"><i
+                                        style="background-color: rgb(40, 138, 214);"></i><i
+                                        style="background-color: rgb(40, 138, 214);"></i></div>
+                                <input type="hidden"></div><!--fragment#134472ac8c#tail--></div>
+                        <!--fragment#551d9a6e4b#tail--><!----></div><!----><!--fragment#879dda888d#head--><input
+                        fragment="879dda888d" type="hidden" value="true"><!----><!--fragment#879dda888d#tail--></li>
+            </ul>
+            <div class="total-provisional"><span data-tmp-total-product-quantity="2"
+                                                 class="total-product-quantity"><span
+                    class="total-label">Tạm tính </span>(2 sản phẩm): </span><span data-tmp-temp-total-money="73980000"
+                                                                                   class="temp-total-money">73.980.000₫</span>
+            </div>
+            <div class="choosegetgoods"><h4>Chọn cách thức nhận hàng</h4><input type="hidden" value="2">
+                <div id="tab-1" class="choose-content current"><!---->
+                    <div class="deli-address">
+                        <form class="active"><p> Chọn địa chỉ để biết thời gian nhận hàng và phí vận chuyển (nếu
+                            có) </p>
+                            <div class="cntry-district">
+                                <div class="btn-click country customer-address">
+                                    <select name="" class="options-select max-width-49">
+                                        <option value="">Hồ Chí Minh</option>
+                                    </select>
+
+                                    <select name="" class="options-select max-width-49">
+                                        <option value="">-------Chọn Quận / Huyện--------</option>
+                                    </select>
+
+                                    <select name="" class="options-select">
+                                        <option value="">-------Chọn Phường / Xã--------</option>
+                                    </select>
+
+
+                                    <textarea name="" class="customer-address-detail" placeholder="Số nhà, tên đường"
+                                              id="" cols="30" rows="10"></textarea>
+
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="finaltotal" style="padding: 2em">
+                <div class="area-total">
+                    <div class="discountcode">
+                        <div class="usecode coupon-code singlebox">
+                            <div class="usecode__icon"><i class="cartnew-discount"></i></div>
+                            <span class="usecode__title">Sử dụng mã giảm giá</span></div><!---->
+                        <div class="clr"></div><!---->
+                        <div class="line-break"></div>
+                    </div>
+                    <div><!----><!----></div><!----><!----><!----><!----><!----><!--fragment#def84ae407#head-->
+                    <!--fragment#def84ae407#tail--><!---->
+                    <div  class="total-price"><strong>Tổng tiền:</strong><strong>73.980.000₫</strong>
+                    </div>
+                </div><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!---->
+                <button type="button" class="submitorder"><b style="text-transform:uppercase">Đặt hàng</b></button>
+                <!----><small> Bạn có thể chọn hình thức thanh toán sau khi đặt hàng </small>
+            </div>
+        </div>
+
+
+    </section>
+
+</div>
+
+
+<!--<footer class="footer">-->
+<!--    <div class="main">-->
+<!--        <section class="clearfix footer__top">-->
+<!--            <div class="footer__col">-->
+<!--                <ul class="f-listmenu">-->
+<!--                    <li><a rel="nofollow" href="/lich-su-mua-hang">Lịch sử mua hàng</a></li>-->
+<!--                    <li><a rel="nofollow" href="/daily">Cộng tác bán hàng cùng TGDĐ</a></li>-->
+<!--                    <li><a rel="nofollow" href="/tra-gop">Tìm hiểu về mua trả góp</a></li>-->
+<!--                    <li><a rel="nofollow" href="/bao-hanh">Chính sách bảo hành</a></li>-->
+<!--                    <li>-->
+<!--                        <a class="arrow showtaga">Xem thêm</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-bao-hanh-san-pham">Chính sách đổi trả</a>-->
+<!--                    </li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/giao-hang">Giao hàng &amp; Thanh toán</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/huong-dan-mua-hang">Hướng dẫn mua online</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/b2b">Bán hàng doanh nghiệp</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/phieu-mua-hang">Phiếu mua hàng</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="http://hddt.thegioididong.com">In hóa đơn điện tử</a>-->
+<!--                    </li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/tos">Quy chế hoạt động</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/noi-quy-cua-hang">Nội quy cửa hàng</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/chat-luong-phuc-vu">Chất lượng phục vụ</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow"-->
+<!--                                          href="/tin-tuc/can-trong-voi-nhung-sieu-thi-thegioididong-khong-chinh-chu&#45;&#45;683321">Cảnh-->
+<!--                        báo giả mạo</a></li>-->
+<!--                    <li class="hidden"><a rel="nofollow" href="/chinh-sach-khui-hop-apple">Chính sách khui hộp sản phẩm-->
+<!--                        Apple</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="footer__col">-->
+<!--                <ul class="f-listmenu">-->
+<!--                    <li><a rel="nofollow" href="http://mwg.vn">Giới thiệu công ty (MWG.vn)</a></li>-->
+<!--                    <li><a rel="nofollow" href="http://vieclam.thegioididong.com">Tuyển dụng</a></li>-->
+<!--                    <li><a rel="nofollow" href="/lien-he">Gửi góp ý, khiếu nại</a></li>-->
+<!--                    <li><a rel="nofollow" href="/he-thong-sieu-thi-the-gioi-di-dong">Tìm siêu thị (3.133 shop)</a></li>-->
+<!--                    <li><a rel="nofollow" class="linkversion" href="https://www.thegioididong.com/?sclient=mobile">Xem-->
+<!--                        bản mobile</a></li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--            <div class="footer__col">-->
+<!--                <div class="f-listtel">-->
+<!--                    <p class="f-listtel__title">-->
+<!--                        <strong>Tổng đài hỗ trợ</strong>-->
+<!--                        (Miễn phí gọi) </p>-->
+<!--                    <p class="f-listtel__content"><span>Gọi mua:</span> <a href="tel:18001060">1800.1060</a> (7:30 - -->
+<!--                        22:00)</p>-->
+<!--                    <p class="f-listtel__content"><span>Kỹ thuật:</span> <a href="tel:18001763">1800.1763</a> (7:30 - -->
+<!--                        22:00)</p>-->
+<!--                    <p class="f-listtel__content"><span>Khiếu nại:</span> <a href="tel:18001062">1800.1062</a> (8:00 - -->
+<!--                        21:30)</p>-->
+<!--                    <p class="f-listtel__content"><span>Bảo hành:</span> <a href="tel:18001064">1800.1064</a> (8:00 - -->
+<!--                        21:00)</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="footer__col">-->
+<!--                <div class="f-social">-->
+<!--                    <a href="https://www.facebook.com/thegioididongcom" class="link-fb">-->
+<!--                        <i class="icon-facebook"></i>-->
+<!--                        3745.5k Fan-->
+<!--                    </a>-->
+<!--                    <a href="https://www.youtube.com/user/TGDDVideoReviews" class="link-ytb">-->
+<!--                        <i class="icon-youtube"></i>-->
+<!--                        843k Đăng ký-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--                <div class="f-certify">-->
+<!--                    <a rel="nofollow" href="http://online.gov.vn/Home/WebDetails/20090" target="_blank">-->
+<!--                        <i class="icon-congthuong"></i>-->
+<!--                    </a>-->
+<!--                    <a rel="nofollow" href="/tos#giai-quyet-khieu-nai" target="_blank">-->
+<!--                        <i class="icon-khieunai"></i>-->
+<!--                    </a>-->
+<!--                    <a rel="nofollow" class="dmca-badge"-->
+<!--                       href="https://www.dmca.com/Protection/Status.aspx?ID=5b62e759-2a0c-4d86-b972-af903bfbc89d&amp;refurl=https://www.thegioididong.com/"-->
+<!--                       target="_blank">-->
+<!--                        <i class="icon-protected"></i>-->
+<!--                    </a>-->
+<!--                    <a class="_ncsc" rel="nofollow"-->
+<!--                       href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/thegioididongcom-1632835473"-->
+<!--                       title="Chung nhan Tin Nhiem Mang" target="_blank">-->
+<!--                        <img class="lazy lazyloaded"-->
+<!--                             data-original="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"-->
+<!--                             class="image-full-width" src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com"-->
+<!--                             width="150"-->
+<!--                             alt="Chung nhan Tin Nhiem Mang"-->
+<!--                             src="https://tinnhiemmang.vn/handle_cert?id=thegioididong.com">-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--                <div class="f-website">-->
+<!--                    <div class="footer__logo">-->
+<!--                        <p class="footer__logo-hd">Website cùng tập đoàn</p>-->
+<!--                        <ul class="footer__logo-list">-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.dienmayxanh.com/" target="_blank">-->
+<!--                                    <i class="iconlogo-dienmayxanh"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.bachhoaxanh.com/" target="_blank">-->
+<!--                                    <i class="iconlogo-bachhoaxanh"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.topzone.vn/" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng cao cấp Apple">-->
+<!--                                    <i class="iconlogo-topzone"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.dienmayxanh.com/xe-dap" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng xe đạp">-->
+<!--                                    <i class="iconlogo-cycle"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.avasport.com/" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng thể thao">-->
+<!--                                    <i class="iconlogo-sport"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.avakids.com/" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng mẹ và bé">-->
+<!--                                    <i class="iconlogo-kids"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.avafashion.com/" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng thời trang">-->
+<!--                                    <i class="iconlogo-fashion"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.thegioididong.com/avaji" target="_blank"-->
+<!--                                   title="Chuỗi cửa hàng trang sức">-->
+<!--                                    <i class="iconlogo-ji"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.dichvutantam.com/" target="_blank"-->
+<!--                                   title="Dịch vụ vệ sinh máy lạnh, sửa chữa điện nước, lắp đặt máy lạnh, máy giặt, tivi">-->
+<!--                                    <i class="iconlogo-tantam"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.nhathuocankhang.com/" target="_blank"-->
+<!--                                   title="Chuỗi nhà thuốc chuẩn GPP">-->
+<!--                                    <i class="iconlogo-ankhang"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://www.4kfarm.com/" target="_blank"-->
+<!--                                   title="Nông trại rau sạch">-->
+<!--                                    <i class="iconlogo-4kfarm"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <a rel="nofollow" href="https://vieclam.thegioididong.com/" target="_blank"-->
+<!--                                   title="Trang tuyển dụng của tập đoàn Thế Giới Di Động">-->
+<!--                                    <i class="iconlogo-vieclam"></i>-->
+<!--                                </a>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+<!--    </div>-->
+
+
+<!--</footer>-->
+
+
+</body>
+<script src="../js/cart.js"></script>
+</html>
